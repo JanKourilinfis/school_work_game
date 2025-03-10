@@ -22,15 +22,15 @@
     //tuto část upravuj dokud nebude celá hra fungovat
 
     function enemy(){
-        var utok=Math.floor(Math.random()*19)+1
+        var utok=Math.floor(Math.random()*20)+1
         return utok
     }
     function dungeon(){
-        var nepratele=Math.floor(Math.random()*4)+1
+        var nepratele=Math.floor(Math.random()*5)+1
         return nepratele
     }
     function reward(){
-        switch(Math.floor(Math.random()*4)+1){
+        switch(Math.floor(Math.random()*5)+1){
               case 1: hp+=100
               return "vyhrál jsi 100 hp na víc"
               break
